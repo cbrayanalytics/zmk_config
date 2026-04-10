@@ -8,3 +8,7 @@
         zmk,matrix-transform = &five_column_transform;
     };
 };
+
+&led_strip {
+    chain-length = <12>;
+};
